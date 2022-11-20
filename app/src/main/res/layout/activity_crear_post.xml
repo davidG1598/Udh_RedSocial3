@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".CrearPost">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:layout_marginTop="100dp"
+        >
+
+        <TextView
+            android:text="CREAR POST"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- CORREO -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/correoLogin"
+                android:inputType="textEmailAddress"
+                android:textColorHint="#000"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:importantForAutofill="no" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <!-- REGISTRO DE USUARIO -->
+        <Button
+            android:id="@+id/accesoLogin"
+            android:text="AGREGAR"
+            android:layout_width="match_parent"
+            android:layout_marginTop="40dp"
+            android:padding="15dp"
+
+            android:layout_height="wrap_content"
+            />
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "755901492940",
+    "project_id": "red-social-udh-b1d35",
+    "storage_bucket": "red-social-udh-b1d35.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:755901492940:android:3e5ff21578e8f466b51c69",
+        "android_client_info": {
+          "package_name": "com.example.udh_redsocial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "755901492940-04rcg3a4dmh8af1acn8dgo3485v3ghlj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdzLBxQVGV9RM2iwvFtgw392_xW-AKPSs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "755901492940-04rcg3a4dmh8af1acn8dgo3485v3ghlj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

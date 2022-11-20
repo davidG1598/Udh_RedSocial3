@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Udh_RedSocial</string>
+
+
+    <string name="loginBTN">LOGIN</string>
+    <string name="registrarBTN">Registrar</string>
+
+    <!--VENTANA DE REGISTRO DE USUARIO -->
+    <string name="registroTXT">REGISTRO</string>
+
+    <string name="correo">Correo</string>
+    <string name="password">Contraseña</string>
+    <string name="nombres">Nombres</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="edad">Edad</string>
+    <string name="telefono">Telefono</string>
+    <string name="direccion">Direccion</string>
+
+    <string name="registroUsuario">REGISTRARME</string>
+
+    <!--PROCESO DE LOGIN -->
+    <string name="loginTXT">LOGIN</string>
+    <string name="correoLogin">Correo</string>
+    <string name="passLogin">Contraseña</string>
+    <string name="accesoLogin">ACCEDER</string>
+
+
+</resources>
