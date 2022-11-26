@@ -1,5 +1,6 @@
 package com.example.udh_redsocial;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -17,6 +18,10 @@ public class Datos extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_datos);
+
+        ActionBar actionBar = getSupportActionBar();
+        assert actionBar != null;
+        actionBar.setTitle("Datos");
 
         txtcorreo = (TextView) findViewById(R.id.txtcorreo);
         txtpassword = (TextView) findViewById(R.id.txtpassword);
@@ -44,9 +49,9 @@ public class Datos extends AppCompatActivity {
     }
 
 
-    public void actualizardata(View view) {
-        Intent i = new Intent(this, Login.class);
+    public void volver(View view) {
+        Intent i = new Intent(this, Inicio.class);
         startActivity(i);
-        Toast.makeText(this, "Datos actualizados", Toast.LENGTH_SHORT).show();
+
     }
 }

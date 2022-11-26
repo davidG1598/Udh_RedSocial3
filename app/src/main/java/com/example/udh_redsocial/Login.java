@@ -1,5 +1,6 @@
 package com.example.udh_redsocial;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -22,6 +23,10 @@ public class Login extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+        ActionBar actionBar = getSupportActionBar();
+        assert actionBar != null;
+        actionBar.setTitle("Login");
+
         user = findViewById(R.id.correoLogin);
         pass = findViewById(R.id.passLogin);
     }
@@ -32,7 +37,7 @@ public class Login extends AppCompatActivity {
 
         db = FirebaseFirestore.getInstance();
 
-        db.collection("idEstudiante")
+        db.collection("estudiante")
                 .whereEqualTo("nombre", username)
                 .get()
                 .addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
@@ -46,7 +51,8 @@ public class Login extends AppCompatActivity {
                                 passwordDB = document.get("password").toString();
                                 count ++;
                             }
-
+                            Intent intent = new Intent(Login.this, Inicio.class);
+                            startActivity(intent);
                             Toast.makeText(Login.this, "ACCESO EXITOSO", Toast.LENGTH_SHORT).show();
 
                         } else {

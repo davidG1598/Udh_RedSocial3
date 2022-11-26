@@ -16,7 +16,11 @@ import com.google.firebase.firestore.QueryDocumentSnapshot;
 import com.google.firebase.firestore.QuerySnapshot;
 
 public class MainActivity extends AppCompatActivity {
-
+ //PARA ACTUALIZAR CAMBIOS O ACTUALIZACIONES
+    //git add
+ //commmit
+ //push
+    //terminal
     FirebaseFirestore db;
     Button loginBTN, registrarBTN;
     @Override
@@ -27,9 +31,10 @@ public class MainActivity extends AppCompatActivity {
         loginBTN = findViewById(R.id.loginBTN);
         registrarBTN = findViewById(R.id.registrarBTN);
 
+        /*
         db = FirebaseFirestore.getInstance();
 
-        db.collection("users")
+        db.collection("estudiante")
                 .get()
                 .addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
                     @Override
@@ -43,14 +48,9 @@ public class MainActivity extends AppCompatActivity {
                         }
                     }
                 });
+
+         */
     }
-
-
-
-
-
-
-
 
 
 

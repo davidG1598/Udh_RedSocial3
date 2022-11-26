@@ -18,7 +18,7 @@
             android:layout_width="match_parent"
             android:layout_height="260dp"
             android:scaleType="center"
-            android:src="@drawable/portada" />
+            android:src="@drawable/portada"/>
 
         <!-- DATOS RECUPERADOS -->
         <LinearLayout
@@ -153,6 +153,7 @@
                     android:id="@+id/btnCrearPost"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:onClick="crearPost"
                     android:text="POST" />
 
 
@@ -176,12 +177,14 @@
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="VER POST" />
+                    android:text="VER POST"
+                    android:onClick="ver_post"/>
 
 
             </LinearLayout>
 
         </LinearLayout>
+
 
     </RelativeLayout>
 

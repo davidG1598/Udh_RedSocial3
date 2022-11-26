@@ -31,7 +31,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
             <EditText
-                android:id="@+id/correoLogin"
+                android:id="@+id/etpost"
                 android:inputType="textEmailAddress"
                 android:textColorHint="#000"
                 android:textColor="@color/black"
@@ -45,13 +45,13 @@
 
         <!-- REGISTRO DE USUARIO -->
         <Button
-            android:id="@+id/accesoLogin"
+            android:id="@+id/agrgarPost"
             android:text="AGREGAR"
             android:layout_width="match_parent"
             android:layout_marginTop="40dp"
             android:padding="15dp"
-
             android:layout_height="wrap_content"
+            android:onClick="bntcrearpost"
             />
 
 

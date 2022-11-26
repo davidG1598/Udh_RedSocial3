@@ -6,10 +6,11 @@
         <entry key="..\:/Users/gonzales/AndroidStudioProjects/Udh_RedSocial/app/src/main/res/layout/activity_crear_post.xml" value="0.2" />
         <entry key="..\:/Users/gonzales/AndroidStudioProjects/Udh_RedSocial/app/src/main/res/layout/activity_datos.xml" value="0.25" />
         <entry key="..\:/Users/gonzales/AndroidStudioProjects/Udh_RedSocial/app/src/main/res/layout/activity_inicio.xml" value="0.25" />
-        <entry key="..\:/Users/gonzales/AndroidStudioProjects/Udh_RedSocial/app/src/main/res/layout/activity_login.xml" value="0.16485507246376813" />
+        <entry key="..\:/Users/gonzales/AndroidStudioProjects/Udh_RedSocial/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/Users/gonzales/AndroidStudioProjects/Udh_RedSocial/app/src/main/res/layout/activity_main.xml" value="0.16485507246376813" />
         <entry key="..\:/Users/gonzales/AndroidStudioProjects/Udh_RedSocial/app/src/main/res/layout/activity_pantalla_principal.xml" value="0.16485507246376813" />
-        <entry key="..\:/Users/gonzales/AndroidStudioProjects/Udh_RedSocial/app/src/main/res/layout/activity_registro.xml" value="0.40555555555555556" />
+        <entry key="..\:/Users/gonzales/AndroidStudioProjects/Udh_RedSocial/app/src/main/res/layout/activity_registro.xml" value="0.25" />
+        <entry key="..\:/Users/gonzales/AndroidStudioProjects/Udh_RedSocial/app/src/main/res/layout/activity_ver_post.xml" value="0.2" />
       </map>
     </option>
   </component>
